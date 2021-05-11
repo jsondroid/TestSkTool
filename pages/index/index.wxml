@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<button bindtap="onclick">点击测试</button>
+

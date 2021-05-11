@@ -1,0 +1,6 @@
+/* component/productview/productview.wxss */
+.test_view{
+  display: flex;
+  flex-direction: column;
+  background: coral;
+}

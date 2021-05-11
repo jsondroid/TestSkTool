@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "plugins": {
+    "ceesPlugin": {
+      "version": "dev-18b5b0bc5dc9d1510fe57c388fed9a17",
+      "provider": "wx8554b9e291d36f87",
+      "genericsImplementation": {
+        "test": {
+          "productview_acne": "component/productview/productview",
+          "productview_speckle": "component/productview/productview",
+          "productview_mole": "component/productview/productview",
+          "productview_wrinkle": "component/productview/productview",
+          "productview_eyedarks": "component/productview/productview",
+          "productview_eyebags": "component/productview/productview",
+          "productview_blackhead": "component/productview/productview",
+          "productview_pore": "component/productview/productview"
+        }
+      }
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
