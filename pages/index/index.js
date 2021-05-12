@@ -288,6 +288,9 @@ Page({
    */
   onShow: function() {
 
+
+    //以下方法可放在app.js中
+    
     //设置导航栏标题名称
     plugin.setNavigationBarTitle('测试demo');
 
@@ -308,7 +311,7 @@ Page({
 
 
   onclick(e) {
-    
+
     //进入拍照页面（正式上线时使用）
     // wx.navigateTo({
     //   url: 'plugin://ceesPlugin/camera',

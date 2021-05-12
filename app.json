@@ -5,7 +5,7 @@
   ],
   "plugins": {
     "ceesPlugin": {
-      "version": "dev-18b5b0bc5dc9d1510fe57c388fed9a17",
+      "version": "2.0.0",
       "provider": "wx8554b9e291d36f87",
       "genericsImplementation": {
         "test": {
