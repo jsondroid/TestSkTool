@@ -1,6 +1,7 @@
 // index.js
 // 获取应用实例
 const app = getApp()
+//导入插件
 const plugin = requirePlugin('ceesPlugin')
 
 //使用插件内的产品推荐的模拟数据
