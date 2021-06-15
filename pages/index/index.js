@@ -302,7 +302,8 @@ Page({
 
     //监听结果页面的加载完成
     plugin.setOnLoadResultListener((res) => {
-      console.error('监听加载页面:  ' + JSON.stringify(res))
+      console.debug('监听加载页面:  ' + JSON.stringify(res))
+      // 在该方法中获得每个指标的结果数据后分析，然后根据自己的分析去推荐产品
       //必须在该回调中设置产品数据
       plugin.setProducts(products); //使用插件内部固定的ui时调用
       plugin.setCustomeProducts(products); //使用自定义的组件时调用
@@ -317,7 +318,8 @@ Page({
     // wx.navigateTo({
     //   url: 'plugin://ceesPlugin/camera',
     // })
-    //进入测试页面 (测试专用)
+
+    // 进入测试页面 (测试专用)
     wx.navigateTo({
       url: 'plugin://ceesPlugin/test',
     })

@@ -1,0 +1,6 @@
+<!--component/productview_two/productview_two.wxml-->
+
+<view class="test_view" bindtap="onClickCustomeProduct" data-demo="{{productData}}">
+  <text>我是第二个自定义组件</text>
+  <text>这是传递的测试数据{{productData.product_title}}</text>
+</view>
